@@ -120,6 +120,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="78d09494-1484-4b7e-9fbc-0107abbaadb5">
+    <name>Пояснение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e23b39b9-5ed8-4560-97c3-23c8161277f6">
     <name>ФормаДокумента</name>
     <synonym>
