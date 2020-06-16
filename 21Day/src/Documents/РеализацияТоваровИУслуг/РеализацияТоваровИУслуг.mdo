@@ -111,16 +111,31 @@
       <key>ru</key>
       <value>Сумма документа</value>
     </synonym>
+    <comment>Сумма</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
+        <precision>16</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b29dba87-6c30-4a08-8182-2ae01b050c35">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
