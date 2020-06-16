@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ba7464c-cbd2-4fae-a63f-689381d2b317">
+  <producedTypes>
+    <objectType typeId="87a7fef3-3be9-4d2c-a181-371b068da0a8" valueTypeId="2285003f-4252-4428-b32e-290b396369c6"/>
+    <refType typeId="040c0b97-fb32-4924-9a72-6c89e6d162f2" valueTypeId="f5612480-eab9-4f12-bfd8-019b653e9c58"/>
+    <selectionType typeId="767e2179-2622-4c6a-bb12-92e448a7626c" valueTypeId="a3aa6a33-c6bc-4a3a-823a-c462b0193328"/>
+    <listType typeId="06fbf6ec-8871-4d8c-9219-a18c99905e05" valueTypeId="e13c83fd-76f9-4170-899c-39f2f942aec1"/>
+    <managerType typeId="eaf7b1b5-6941-4e29-a8ec-307698d3ecd2" valueTypeId="1c7912d2-fce1-44a5-900d-1462bd59d368"/>
+  </producedTypes>
+  <name>ИзменениеЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИзменениеЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИзменениеЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="689600d7-05fc-43ac-a3c0-2582250ee834">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fb7838fa-9b4e-42e1-b957-ab9c654df6e9">
+    <producedTypes>
+      <objectType typeId="a0699436-13f6-455a-b6b7-42473b28289e" valueTypeId="395806a7-3a76-4de3-8b8e-7687d508f286"/>
+      <rowType typeId="7087dfb4-c12a-4bf2-862c-b85c954907e4" valueTypeId="54b9e42f-d9c1-40cc-a97b-545c89b18ce6"/>
+    </producedTypes>
+    <name>Изменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <attributes uuid="7f4eacc4-3d8a-4626-b9f9-dec6fd2d939a">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d89d71d5-95a4-4156-ad3f-c108e8909ec4">
+      <name>СтараяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Старая цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ed2a641c-ab14-49bd-85be-6daeb6b252e3">
+      <name>НоваяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новая цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

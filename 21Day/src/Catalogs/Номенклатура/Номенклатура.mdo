@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b9eaa3-3f85-429d-8f56-853d033ef6b5">
+  <producedTypes>
+    <objectType typeId="a7fef2fc-3b40-4ba2-b829-9110f577f3b0" valueTypeId="e3a17fc4-b3ed-4057-85ae-3ef6f231e0d2"/>
+    <refType typeId="083c21f6-c144-41ea-b98d-082840cfb269" valueTypeId="4315fd7a-4797-4caa-9112-6fd451378e52"/>
+    <selectionType typeId="89bc1da3-942d-4567-b16b-ed5cfa329651" valueTypeId="2ef99606-0608-46ad-84e0-89bca019df18"/>
+    <listType typeId="d1725b71-092c-48f6-9426-6e8d8acfe765" valueTypeId="26ff6242-1c69-4ca4-aef3-f685865c85c7"/>
+    <managerType typeId="aaee94a2-31c2-42ab-9c54-6f4e3ca5256c" valueTypeId="206df22e-757f-490c-a5d0-5fec3fecbf66"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c645b456-f559-476f-980c-3e45b1930c30">
+    <name>ОписаниеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание товара</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea78329c-6cae-4d43-9521-f34d6a8e715d">
+    <name>ОсновнойПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92ef32be-0a5a-489d-86cb-df739c50d06c">
+    <name>ТипТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип товара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e1104c6-b39c-4ce2-88c6-4372fdca4e0f">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="73d6a875-9c32-4bb3-ad7a-2d0ffee6d18a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

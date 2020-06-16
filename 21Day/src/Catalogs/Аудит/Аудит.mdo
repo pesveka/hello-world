@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="662d0868-1eaf-4182-820e-48eb74475b4f">
+  <producedTypes>
+    <objectType typeId="7713e3ae-d2ed-4919-a2a0-c65600f53a87" valueTypeId="fed3bba7-8bdc-441c-b04d-ecc2158e628a"/>
+    <refType typeId="ae9daf0f-0b04-42c2-93f5-3e6d6ebc3045" valueTypeId="f641b2f7-2653-4976-a683-a191c0a78830"/>
+    <selectionType typeId="e644f803-ae00-4dd4-9f16-a78bd923a8fa" valueTypeId="140aa24c-6c04-40aa-ab71-e8d66d333e1e"/>
+    <listType typeId="4f5df988-a1a3-4057-a43d-e9e0b050c1e2" valueTypeId="50125c76-e6f1-445a-9cc2-d46f1916a2d1"/>
+    <managerType typeId="dd80f7ff-f114-4ac2-aea4-b0508cc8081f" valueTypeId="9012d838-5ae3-4d5e-900a-257b43300ca7"/>
+  </producedTypes>
+  <name>Аудит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аудит</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аудит.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аудит.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d93ca390-9497-4294-b3ae-32c2b153aeca">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="601018a3-38b6-43f5-be01-a951edbc4bbe">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

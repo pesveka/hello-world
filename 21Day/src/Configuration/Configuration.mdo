@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff4b937e-3895-4c66-91a8-d943a565ec12">
+  <name>МебельДомТорг</name>
+  <synonym>
+    <key>ru</key>
+    <value>ООО &quot;МебельДомТорг&quot;</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="19513f74-159d-4732-8b6f-8113eff17d79"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4db424c3-cccd-417b-a828-ed86df927db7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ce0092af-b6c6-4e6f-b90b-56fcdba41d1f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6f5d2d67-20ee-4865-9cbc-c6c6c3c88b2d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8660560f-3934-4e0d-98b9-01c072ada3bb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c98dd26a-e433-49e6-82a9-954d50ceae59"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="46d98ed4-10de-4936-8f91-16c9c829c5af">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.БухУчет</subsystems>
+  <commonPictures>CommonPicture.ПодсистемаПродажи</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаЗакупки</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаНСИ</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаБухУчет</commonPictures>
+  <roles>Role.Роль1</roles>
+  <roles>Role.Роль2</roles>
+  <filterCriteria>FilterCriterion.ДокументыПоКонтрагенту</filterCriteria>
+  <commonModules>CommonModule.ОМ</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверный</commonModules>
+  <xDTOPackages>XDTOPackage.ПакетXDTO1</xDTOPackages>
+  <eventSubscriptions>EventSubscription.ТоварыИУслуги</eventSubscriptions>
+  <functionalOptions>FunctionalOption.ПоказатьСклад</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.Контрагент</functionalOptionsParameters>
+  <constants>Constant.НаименованиеОрганизации</constants>
+  <constants>Constant.Константа1</constants>
+  <commonForms>CommonForm.Константа1</commonForms>
+  <commonForms>CommonForm.Форма</commonForms>
+  <commonForms>CommonForm.НаименованиеОрганизации</commonForms>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Аудит</catalogs>
+  <catalogs>Catalog.ИзменениеЦен</catalogs>
+  <catalogs>Catalog.УлицыГорода</catalogs>
+  <catalogs>Catalog.Должность</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ВыпискаБанка</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.Документ1</documents>
+  <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
+  <enums>Enum.ТипыТоваров</enums>
+  <reports>Report.ОтчетПоКонтрагентам</reports>
+  <reports>Report.ПродажиТоваровПоДокументам</reports>
+  <reports>Report.ОстаткиВзаиморасчетов</reports>
+  <reports>Report.ПродажиТоваров</reports>
+  <reports>Report.ПродажиПоДаннымТабличнойЧасти</reports>
+  <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.СводныйОтчетОПродажах</reports>
+  <reports>Report.ПродажиДиаграмма</reports>
+  <reports>Report.ГрафикПродажПоКлиентам</reports>
+  <reports>Report.Отчет1</reports>
+  <reports>Report.Отчет2</reports>
+  <reports>Report.ОтчетПоИзменениямЦен</reports>
+  <dataProcessors>DataProcessor.ОбработкаРасширений</dataProcessors>
+  <dataProcessors>DataProcessor.МетаданныеДокумента</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+</mdclass:Configuration>

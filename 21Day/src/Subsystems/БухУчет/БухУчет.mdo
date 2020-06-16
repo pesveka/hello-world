@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="403d4a96-44cc-47b3-ae61-137be9cfb83f">
+  <name>БухУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бух учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаБухУчет</picture>
+  </picture>
+  <content>ChartOfAccounts.БухгалтерскийУчет</content>
+  <content>AccountingRegister.РегистрБухУчет</content>
+  <content>Document.БухгалтерскаяОперация</content>
+  <content>FilterCriterion.ДокументыПоКонтрагенту</content>
+  <content>Constant.НаименованиеОрганизации</content>
+  <content>Constant.Константа1</content>
+  <content>Role.Роль2</content>
+  <content>CommonForm.Константа1</content>
+  <content>CommonForm.Форма</content>
+</mdclass:Subsystem>

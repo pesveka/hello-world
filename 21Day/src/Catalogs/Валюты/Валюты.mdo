@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d3ff725-f37d-4341-9239-ddbda954dcc4">
+  <producedTypes>
+    <objectType typeId="1a02220e-0d20-4553-a8f2-29fd547c60a4" valueTypeId="0da98631-36f6-4c25-8cf5-8c09bdf538ac"/>
+    <refType typeId="456eb597-6a7c-4df6-a69b-2e37d8ff2882" valueTypeId="c90ebb3e-f5ad-4927-9a49-52484a796947"/>
+    <selectionType typeId="8e99766d-7209-40a4-b9e1-25e8177aa00b" valueTypeId="4514dd9d-ae3e-47e9-81a4-5ac6f2a68933"/>
+    <listType typeId="9d3b1f7a-3cee-4109-bbe3-f76356aff670" valueTypeId="69f3fbeb-ad54-4091-919d-065cb54e69dc"/>
+    <managerType typeId="84e09e79-5a16-4b08-b662-2110d6dd8d1c" valueTypeId="b2523a1c-c81e-447b-a5d1-6aa3e5335208"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="eab104dd-5877-49f8-848f-699fbc06e101">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

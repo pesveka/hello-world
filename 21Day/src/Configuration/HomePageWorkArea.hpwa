@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <columns>
+    <items>
+      <form>DocumentJournal.ТорговыеДокументы.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Роль1</role>
+        </for>
+        <for>
+          <role>Role.Роль2</role>
+        </for>
+      </visibility>
+    </items>
+    <items>
+      <form>0a8c22e0-a9c1-434e-86bd-37ab29f3d8c1</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+        <for>
+          <role>Role.Роль1</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.Роль2</role>
+        </for>
+      </visibility>
+    </items>
+  </columns>
+</hpwa:HomePageWorkArea>

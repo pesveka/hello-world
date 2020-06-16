@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425da49b-d539-49a6-a140-ba47b3d5f6ce">
+  <producedTypes>
+    <objectType typeId="75c2e600-31d0-47f6-9a93-e8551606fc59" valueTypeId="b57c38fa-1fe9-49d3-94b9-e5bb7ea01231"/>
+    <refType typeId="c18c4e2a-395f-4c5d-a76b-a5c3960e599e" valueTypeId="93847717-8b28-457b-9ea6-ece83c048787"/>
+    <selectionType typeId="0f9ca162-67de-408a-a23a-2d704bd1cc06" valueTypeId="6f17e984-4a19-4013-a295-8269523e71a7"/>
+    <listType typeId="cb4829d1-609d-4588-8238-d0996cb44eeb" valueTypeId="1413a621-a5b6-4e68-a1ef-e0b9153fde0d"/>
+    <managerType typeId="b27947a9-95f5-47bf-b312-602776b5e063" valueTypeId="0ca82419-6421-4e8f-a982-bda0fa79e7f0"/>
+  </producedTypes>
+  <name>БухгалтерскаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерская операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БухгалтерскаяОперация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.БухгалтерскаяОперация.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccountingRegister.РегистрБухУчет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="61a90eef-4904-4185-9bb2-efee99c34120">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

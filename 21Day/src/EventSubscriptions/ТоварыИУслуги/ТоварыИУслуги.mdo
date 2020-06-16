@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d5ab84a-33d7-4662-9a00-3b3e7c773a0c">
+  <name>ТоварыИУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары и услуги</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПоступлениеТоваровИУслуг</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ОМ.ТоварыИУслугиОбработкаПроведения</handler>
+</mdclass:EventSubscription>

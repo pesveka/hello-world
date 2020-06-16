@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63a7bcd2-4e4c-4803-be66-bdd1f0798ae6">
+  <producedTypes>
+    <objectType typeId="d2aa8b65-89bb-4a14-8ddd-74c72ad991e1" valueTypeId="ae6e1f52-aa6c-40db-bd86-58df047fd956"/>
+    <refType typeId="5ad1871b-39ee-4745-9482-0f3eadd6fde3" valueTypeId="84de5f34-4d01-493d-87f0-ab2b0a76ca69"/>
+    <selectionType typeId="15496386-0e18-47af-ac38-03cb1564a99e" valueTypeId="a82c5795-6c34-435e-ba78-c37bc71d2eef"/>
+    <listType typeId="b1f537fd-f2b2-4808-9ac3-950c4edf2a51" valueTypeId="50807f8b-87c7-44d7-9b2b-3850cf5f34e1"/>
+    <managerType typeId="a0625579-c248-442d-8dca-9d328d17b8b6" valueTypeId="816cb25a-cd31-48bc-9fc1-1cc05cd16348"/>
+  </producedTypes>
+  <name>УлицыГорода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Улицы города</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УлицыГорода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УлицыГорода.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УлицыГорода.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="59d9f70d-e7c0-4b18-a69f-683d1af419e1">
+    <name>Длина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27e90bf0-112f-4bde-827e-4c1703b3142f">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e86a4382-8fa0-40e5-99dc-6d08f5e9809d">
+    <name>ОтдПолиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отд полиции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="96f73a4e-397c-4c60-bf47-09c095e90b4f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

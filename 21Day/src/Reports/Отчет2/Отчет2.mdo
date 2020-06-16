@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e3bcb00-09aa-44ef-850d-8d00ddd3726b">
+  <producedTypes>
+    <objectType typeId="9ed9134c-f0ec-4b6e-acd8-853d55aac196" valueTypeId="7c848788-a0b9-4ffa-8b57-5fd3dacff0ea"/>
+    <managerType typeId="b4eb37f0-f4b8-4ef8-932e-4ebae47b05eb" valueTypeId="d4e82b34-32f2-4998-9be2-c9345ff1de34"/>
+  </producedTypes>
+  <name>Отчет2</name>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="d5f401bb-3d03-478d-96d2-4acc55be85de">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>
