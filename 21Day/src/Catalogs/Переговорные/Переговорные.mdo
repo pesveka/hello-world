@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba992d6a-abab-4717-b242-5c95f467b65a">
+  <producedTypes>
+    <objectType typeId="77276a12-bbd8-4beb-aa48-db9799b6df98" valueTypeId="ca4fcd2d-cec7-4b57-b1e4-eb0fb480e8a1"/>
+    <refType typeId="6412af46-7c48-4d46-8495-e6c6fb8efd6c" valueTypeId="27eb9cb6-4d5d-4ba8-8b78-9053f37fcd4c"/>
+    <selectionType typeId="74d705de-1f8d-427f-a257-87aa9b1c66ed" valueTypeId="fd998297-7e61-435c-a493-030b43b7019d"/>
+    <listType typeId="02a39c77-bef1-46d9-ba2f-e32d78748938" valueTypeId="da818c6e-bcb8-42ba-a442-d352c4dd8a47"/>
+    <managerType typeId="fca977a9-99bf-417a-84da-f80f9ba2343c" valueTypeId="3a6cb5db-1006-489f-86a9-66f1134c65e2"/>
+  </producedTypes>
+  <name>Переговорные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переговорные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Переговорные.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Переговорные.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

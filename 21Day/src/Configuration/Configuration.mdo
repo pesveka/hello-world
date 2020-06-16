@@ -59,6 +59,7 @@
   <catalogs>Catalog.ИзменениеЦен</catalogs>
   <catalogs>Catalog.УлицыГорода</catalogs>
   <catalogs>Catalog.Должность</catalogs>
+  <catalogs>Catalog.Переговорные</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
