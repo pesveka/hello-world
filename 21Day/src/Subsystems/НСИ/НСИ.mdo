@@ -27,4 +27,5 @@
   <content>Catalog.Должность</content>
   <content>Report.ПродажиТоваровПоДокументам</content>
   <content>Role.Роль2</content>
+  <content>Catalog.Переговорные</content>
 </mdclass:Subsystem>
