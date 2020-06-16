@@ -143,6 +143,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5f75e4e7-4bf6-4923-9d63-d8dd2db7fbb3">
+    <name>Реквизит6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит6</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="1136f1d5-0f46-44eb-8e9a-3cb85897d1f2">
     <name>ФормаЭлемента</name>
     <synonym>
