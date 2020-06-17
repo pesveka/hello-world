@@ -67,6 +67,7 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documents>Document.БухгалтерскаяОперация</documents>
   <documents>Document.Документ1</documents>
+  <documents>Document.Документ</documents>
   <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
   <enums>Enum.ТипыТоваров</enums>
   <reports>Report.ОтчетПоКонтрагентам</reports>

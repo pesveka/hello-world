@@ -11,6 +11,19 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ОтчетПоИзменениямЦен.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="fb046328-8323-4f60-be77-08ee1addc9f3">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
   <forms uuid="e57b6426-bc42-403e-837b-0f8fe46cdc12">
     <name>ФормаОтчета</name>
     <synonym>
