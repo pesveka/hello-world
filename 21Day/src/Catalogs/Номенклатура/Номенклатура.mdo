@@ -99,6 +99,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="772a1246-e429-40a5-b1c3-c48d0ca35eab">
+    <name>Сертификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="73d6a875-9c32-4bb3-ad7a-2d0ffee6d18a">
     <name>ФормаЭлемента</name>
     <synonym>
