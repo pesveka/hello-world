@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1078640d-d8d0-4a5e-a88d-480b1ab137f4">
+  <producedTypes>
+    <objectType typeId="33c89338-1ba4-4f1a-9af7-fd61e3fe6005" valueTypeId="4fa747d0-fd41-45e2-b7ae-2399b365246d"/>
+    <managerType typeId="dd081070-70cf-4104-a3cf-91d52a60c746" valueTypeId="7705ae8c-013b-4191-8184-6041ef444029"/>
+  </producedTypes>
+  <name>ОтчетКлон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет клон</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
