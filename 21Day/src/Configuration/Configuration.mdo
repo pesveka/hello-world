@@ -81,6 +81,7 @@
   <reports>Report.Отчет1</reports>
   <reports>Report.Отчет2</reports>
   <reports>Report.ОтчетПоИзменениямЦен</reports>
+  <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.ОбработкаРасширений</dataProcessors>
   <dataProcessors>DataProcessor.МетаданныеДокумента</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
