@@ -10,4 +10,17 @@
     <value>Отчет</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="4b05498c-b156-4c1d-ac17-4f0fa3635f59">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
 </mdclass:Report>
